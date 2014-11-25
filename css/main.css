@@ -1,0 +1,32 @@
+body{
+	background: white;
+}
+
+/*RUBRIK, LOGO (!) omg pls someone fix logo (!) */
+
+header{
+	font-size: 10vh;
+	font-family: sans-serif;
+	color: #000;
+	height: 11vh;
+	padding-left: 15px;
+}
+
+/* MENY */
+
+nav{
+	background-image: url(../img/nav.png);
+	height: 47px;
+
+}
+
+/* CONTAINER */
+
+.wrapper{
+	border: 2px solid black;
+	width: 80%;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
