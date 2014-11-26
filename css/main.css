@@ -2,6 +2,12 @@ body{
 	background: white;
 }
 
+h1{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
 /*RUBRIK, LOGO (!) omg pls someone fix logo (!) */
 
 header{
@@ -29,4 +35,43 @@ nav{
 	margin: 0 auto;
 	margin-top: 20px;
 
+}
+
+
+
+/* FORM STYLING */
+
+
+.formWrapper{
+    /*border: solid;
+    border-color: black;*/
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+
+    margin: auto;
+  	position: absolute;
+ 	top: 10%; left: 0; bottom: 0; right: 0;
+}
+
+.formRight{
+	float: right;
+	z-index: 90;
+}
+
+.formLeft{
+	float: left;
+	z-index: 90;
+}
+
+.bottom1{
+	margin-top: 50px;
+}
+
+.bottom2{
+	margin-top: 97px;
+}
+
+form input{
+	margin-bottom: 10px;
 }
