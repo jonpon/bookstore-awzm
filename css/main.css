@@ -10,6 +10,13 @@ h1{
 	margin-bottom: 20px;
 }
 
+h2{
+	font-size: 3vh;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
 /*RUBRIK, LOGO (!) omg pls someone fix logo (!) */
 
 header{
@@ -19,8 +26,6 @@ header{
 	height: 11vh;
 	padding-left: 15px;
 }
-
-/* logo styling */
 
 .logo{
 	height: 45px;
@@ -76,7 +81,6 @@ nav{
 form input{
 	margin-bottom: 10px;
 }
-
 
 /* Link styling */
 
