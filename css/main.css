@@ -41,7 +41,7 @@ nav{
 
 /* FORM STYLING */
 
-.formWrapper{
+.form_wrapper{
     width: 400px;
     height: 400px;
     padding: 10px;
@@ -50,11 +50,11 @@ nav{
  	top: 10%; left: 0; bottom: 0; right: 0;
 }
 
-.formRight{
+.form_right{
 	float: right;
 }
 
-.formLeft{
+.form_left{
 	float: left;
 }
 
@@ -68,4 +68,65 @@ nav{
 
 form input{
 	margin-bottom: 10px;
+}
+
+
+/* Link styling */
+
+.admin{
+	position: fixed;
+	top:20px;
+	right: 200px;
+	color: blue;
+	font-size: 30px;
+}
+
+.kund{
+	position: fixed;
+	top:20px;
+	right: 300px;
+	color: blue;
+	font-size: 30px;
+}
+
+a{
+	font-size:20px;
+	margin: 20px;
+	text-decoration: none;
+}
+
+	a:link {
+	    color: #FF0000;
+	}
+
+	/* visited link */
+	a:visited {
+	    color: White;
+	}
+
+	/* mouse over link */
+	a:hover {
+	    color: Blue;
+	}
+
+	/* selected link */
+	a:active {
+	    color: Green;
+	}
+
+	input[type=text]
+	{
+	    border-radius:5px;
+	    border-color: Grey;
+	}
+
+.nav{
+position: relative;
+top: 10px
+}
+
+.search{
+	position: relative;
+	top: 10px;
+	left: 20px;
 }
