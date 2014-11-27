@@ -20,6 +20,13 @@ header{
 	padding-left: 15px;
 }
 
+/* logo styling */
+
+.logo{
+	height: 45px;
+	width: auto;
+}
+
 /* MENY */
 
 nav{
