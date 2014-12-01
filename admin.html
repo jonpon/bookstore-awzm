@@ -62,17 +62,13 @@
 			<br>
 			Beskrivning:<br>
 			<input type="text" name="Beskrivning">
-			<br>
-
-			<p class="bottom1">F-Pris:</p>
-			<input type="text" name="fPris">
 		</form>
 
 	</div>
 
 	<div class="form_right">
 
-		<form>
+		<form form oninput="result.value=parseInt( Input1.value)*parseInt(1.6)">
 			Datum:<br>
 			<input type="text" name="Datum">
 			<br>
@@ -81,11 +77,16 @@
 			<br>
 			Antal Exemplar:<br>
 			<input type="text" name="antalEx">
-			<br>
+		</form>
 
-			<p class="bottom2">Försäljningspris</p>
-			<input type="text" name="Forsaljning">
-			<br>
+	</div>
+
+	<div class="form_bottom">
+		<p>F-Pris</p>
+		<form oninput="result.value=parseInt( Input1.value)*(1.6)">
+			<input text="number" name="Input1"/><br>
+			<p>Försäljningspris</p><br>
+			<output class="output" name="result" for="Input1"></output><br><br>
 			<input type="submit" name="submit" value="Skicka">
 		</form>
 

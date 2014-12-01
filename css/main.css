@@ -79,8 +79,14 @@ nav{
 	float: left;
 }
 
+.form_bottom{
+	top: 300px;
+	clear: both;
+}
+
 .bottom1{
-	margin-top: 50px;
+	margin-top: ;
+	float: right;
 }
 
 .bottom2{
@@ -90,6 +96,12 @@ nav{
 form input{
 	margin-bottom: 10px;
 }
+
+.output{
+	border: 2px solid gray;
+	width: 200px;
+}
+
 
 /* button styling */
 
