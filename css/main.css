@@ -37,8 +37,63 @@ header{
 nav{
 	background-image: url(../img/nav.png);
 	height: 47px;
+	position: relative;
+	top: 8px;
+	
 
 }
+
+ul{
+
+}
+
+li{
+	display: inline-block;
+	margin:10px;
+}
+
+/* Link Styling */
+
+a{
+	font-size:20px;
+	margin: 20px;
+	text-decoration: none;
+}
+
+	a:link {
+	    color: white;
+	}
+
+	/* visited link */
+	a:visited {
+	    color: blue;
+	}
+
+	/* mouse over link */
+	a:hover {
+	    color: blue;
+	}
+
+	/* selected link */
+	a:active {
+	    color: white;
+	}
+
+	input[type=text]
+	{
+	    border-radius:5px;
+	    border-color: Grey;
+	}
+
+	
+
+form{
+	height: 25px;
+	width: 150px;
+	margin-left: 20px;
+
+}
+
 
 /* CONTAINER */
 
@@ -141,44 +196,7 @@ input[type=submit]
 		width: 80px;
 	}
 
-/* Link Styling */
 
-a{
-	font-size:20px;
-	margin: 20px;
-	text-decoration: none;
-}
-
-	a:link {
-	    color: white;
-	}
-
-	/* visited link */
-	a:visited {
-	    color: blue;
-	}
-
-	/* mouse over link */
-	a:hover {
-	    color: blue;
-	}
-
-	/* selected link */
-	a:active {
-	    color: white;
-	}
-
-	input[type=text]
-	{
-	    border-radius:5px;
-	    border-color: Grey;
-	}
-
-	
-.nav{
-position: relative;
-top: 10px
-}
 
 .search{
 	position: relative;
