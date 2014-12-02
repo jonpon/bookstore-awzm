@@ -14,3 +14,14 @@ $(function() {
 
 
 });
+
+
+
+
+
+
+
+function myFunction() {
+    document.getElementById(id="input1")
+    ("FUCK YEAY SKITEN FUNKAR!");
+}

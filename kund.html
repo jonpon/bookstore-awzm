@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/meyer-reset.css">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="js/js-loader.js"></script>
+		<script src="js/main.js"></script>
 </head>
 <body>
 
@@ -27,8 +28,14 @@
 									<nav>
 
 										<div>
-											<input  class="search"type="text" name="Forsaljning" placeholder="sök bok,författare eller titel">
-											<input  class="search"type="submit" name="sök" value="sök">
+											<form oninput="myFunction">
+											<input oninput="myFunction()" class="search" type="text" name="input1" placeholder="sök bok efter ISBN, författare eller titel">
+
+											<input class="search" type="submit" name="sök" value="sök"><br>
+											<p {color:white}>stuff</p>
+											<output class="output" name="result" for="input1" id="input1"></output>
+
+											</form>
 										</div>
 
 									</nav>

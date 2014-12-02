@@ -97,10 +97,12 @@ form input{
 	margin-bottom: 10px;
 }
 
-.output{
+/* temporary output styling */
+
+/*.output{
 	border: 2px solid gray;
 	width: 200px;
-}
+}*/
 
 
 /* button styling */
