@@ -53,7 +53,25 @@ $(function() {
 
 });
 
+
+
+
+
 function myFunction() {
-    document.getElementById(id="input1")
-    ("FUCK YEAY SKITEN FUNKAR!");
-}
+    document.write("FUCK YEAY SKITEN FUNKAR!");
+  }
+
+
+
+//create new button
+
+//function myFunction() {
+  //  var btn = document.createElement("BUTTON");
+   // document.body.appendChild(btn);
+//}
+
+//change bg color
+
+//function myRed() {
+//document.body.style.backgroundColor = "red";
+//}
