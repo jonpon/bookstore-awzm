@@ -150,22 +150,22 @@ a{
 }
 
 	a:link {
-	    color: #FF0000;
+	    color: white;
 	}
 
 	/* visited link */
 	a:visited {
-	    color: White;
+	    color: blue;
 	}
 
 	/* mouse over link */
 	a:hover {
-	    color: Blue;
+	    color: blue;
 	}
 
 	/* selected link */
 	a:active {
-	    color: Green;
+	    color: white;
 	}
 
 	input[type=text]
