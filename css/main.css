@@ -203,3 +203,10 @@ input[type=submit]
 	top: 10px;
 	left: 20px;
 }
+
+.pure-table {
+
+	width : 400px;
+	margin-top: 10px;
+}
+}
