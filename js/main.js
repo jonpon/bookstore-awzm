@@ -12,7 +12,7 @@ $(function() {
         // Read SQL questions from this file
         sql: "sql/product-questions.sql",
         // Run the query named all products
-        run: "current price on books",
+        run: "select book by isbn",
         isbn: formInfo.isbn
       },
       success: function(data) {
