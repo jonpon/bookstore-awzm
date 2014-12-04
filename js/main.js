@@ -57,9 +57,9 @@ $(function() {
 
 
 
-function myFunction() {
-    document.write("FUCK YEAY SKITEN FUNKAR!");
-  }
+//function myFunction() {
+  //  document.write("FUCK YEAY SKITEN FUNKAR!");
+  //}
 
 
 
@@ -75,3 +75,5 @@ function myFunction() {
 //function myRed() {
 //document.body.style.backgroundColor = "red";
 //}
+
+
