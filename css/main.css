@@ -199,6 +199,7 @@ input[type="submit"]
 		border-radius: 5px;
 		height: 20px;
 		width: 80px;
+
 	
 	}
 
@@ -221,6 +222,3 @@ input[type="submit"]
 
 }
 
-.clearFix{
-	clear: both;
-}
