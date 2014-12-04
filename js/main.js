@@ -45,20 +45,3 @@ $(function() {
 //function myFunction() {
   //  document.write("FUCK YEAY SKITEN FUNKAR!");
   //}
-
-
-
-//create new button
-
-//function myFunction() {
-  //  var btn = document.createElement("BUTTON");
-   // document.body.appendChild(btn);
-//}
-
-//change bg color
-
-//function myRed() {
-//document.body.style.backgroundColor = "red";
-//}
-
-
