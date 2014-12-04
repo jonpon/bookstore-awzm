@@ -25,48 +25,46 @@
 		</header>
 
 
-									<nav>
-											<ul class="menu">
+					<nav>
+							<ul class="menu">
 
 												
-												<li>		
-														<a class="nav" href="rapport.html">Försäljningsrapport</a>
+								<li>
+														
 
-												</li>
-														<a class="nav" href="admin.html">Formulär Inleverans</a>
+											<form oninput="myFunction">
+															
+															<input oninput="myFunction()" class="search" type="text" name="input1" placeholder="sök bok efter ISBN, författare eller titel">
 
-												</li>
-												<li>
-														<a class="nav" href="forsalj.html">Försäljning</a>
+															<output class="output" name="result" for="input1" id="input1"></output>
 
-												</li>	
+											</form>
+
+										</li>	
+
+										<li>
+												<form>
+													<input class="search" type="submit" name="sök" value="Sök"><br>
+																	<p {color:white}></p>
+												</form>					
+									</li>
 													
 												
-											</ul>						
-								</nav>
+							</ul>						
+					</nav>
 
 
 
 
 			<div id="mainContainer">
 
-													<form oninput="myFunction">
-															
-																	<input oninput="myFunction()" class="search" type="text" name="input1" placeholder="sök bok efter ISBN, författare eller titel">
-
-																<input class="search" type="submit" name="sök" value=""><br>
-																	<p {color:white}></p>
-
-																	<output class="output" name="result" for="input1" id="input1"></output>
-
-														</form>
 
 
-												<div id="imgCustomerInterface">
+										<div id="imgCustomerInterface">
 
     													<img src="img/books.jpg" alt="booksCustomerInterface">
 
-    											</div>		
+    									</div>		
 
 	
 				</div>
@@ -75,7 +73,7 @@
 
 
 
-
+<div id="clearFix"></div>
 
 
 </body>
