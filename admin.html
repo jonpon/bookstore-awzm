@@ -80,6 +80,8 @@
 
 	<div class="form_right">
 
+
+
 		<form form oninput="result.value=parseInt( Input1.value)*parseInt(1.8)">
 			Datum:<br>
 			<input type="text" name="Datum">
@@ -91,9 +93,20 @@
 			<input type="text" name="antalEx">
 		</form>
 
+
+		<form oninput="result.value=parseInt( Input1.value)*(1.8)*(1.06);">
+			F-pris:<br>
+			<input text="number" name="Input1"/><br>
+
+			<p>Försäljningspris</p><br>
+			<output class="output" name="result" for="Input1"></output><br><br>
+
+			<input onclick="" type="submit" name="submit" value="Skicka">
+		</form>
+
 	</div>
 
-	<div class="form_bottom">
+	<!--<div class="form_bottom">
 		<p>F-Pris</p>
 
 		<form oninput="result.value=parseInt( Input1.value)*(1.8)*(1.06)">
@@ -104,7 +117,7 @@
 			<input onclick="" type="submit" name="submit" value="Skicka">
 		</form>
 
-	</div>
+	</div>-->
 
 </div>
 

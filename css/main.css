@@ -83,7 +83,7 @@ a{
 	    color: white;
 	}
 
-	input[type=text]
+	input:not([type="submit"])
 	{
 	    border-radius:5px;
 	    border-color: Grey;
@@ -182,7 +182,7 @@ form input{
 	font-size: 30px;
 }
 
-input[type=button]
+input[type="button"]
 	{
 		color: white;
 		background-color: #00008B;
@@ -191,7 +191,7 @@ input[type=button]
 		width: 50px;
 	}
 
-input[type=submit]
+input[type="submit"]
 	{
 		color: white;
 		background-color: #00008B;
