@@ -40,9 +40,3 @@ $(function() {
 });
 
 
-
-
-
-//function myFunction() {
-  //  document.write("FUCK YEAY SKITEN FUNKAR!");
-  //}
