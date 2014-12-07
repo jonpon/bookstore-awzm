@@ -258,12 +258,32 @@ input[type="submit"]
 
 	
 }
+/*----------------------Styling av rapportsidan--------------------------------*/
 
 .rapport{
 	margin: 0 auto;
 	text-align: center;
-	width: 80%;
-	height: 600px;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin-left:12vw;
+	margin-right: 6vw;
+	margin-top: 4vh;
+	height: 60vh;
+	display: block;
+	background: -webkit-linear-gradient(-45deg, #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+}
+.rapport h2 {
+	display: block;
+}
+#mainContainer h2 {
+ text-align: center;
+}
+.period input, label {
+	width: 7vw;
+	display: block;
+	margin-bottom: 1vh;
+}
+.period {
+	width: 9vw;
+	height: 40vh;
+	margin-left: 2px;
+	float: left;
 }

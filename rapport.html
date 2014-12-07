@@ -13,63 +13,54 @@
 <body>
 
 
-<main class="wrapper">
+	<main class="wrapper">
 
-		<header>
+			<header>
 				<img class="logo" src="img/book.jpg">
+				<a class="admin" href="index.html"><input type="button" value="Admin"></a>
+				<a class="kund" href="kund.html"><input type="button" value="Kund"></a>
+			</header>
+		
 
-				<a class="admin" href="index.html">
-						<input type="button" value="Admin">
-					</a>
+			<nav>
 
-					<a class="kund" href="kund.html">
-						<input type="button" value="Kund">
-					</a>
-		</header>
-	
-
-									<nav>
-
-											<ul class="menu">
-												<li>
-														<a class="nav" href="update.html">Uppdatering av Priser</a>
-
-												</li>
-												<li>		
-														<a class="nav" href="rapport.html">Försäljningsrapport</a>
-
-												</li>
-														<a class="nav" href="admin.html">Formulär Inleverans</a>
-
-												</li>
-												<li>	
-														<a class="nav" href="forsalj.html">Försäljning</a>
-
-												</li>	
-												
-												
-											</ul>						
-								</nav>
-
-
-
+				<ul class="menu">
+					<li>
+						<a class="nav" href="update.html">Uppdatering av Priser</a>
+					</li>
+					<li>		
+						<a class="nav" href="rapport.html">Försäljningsrapport</a>
+					</li>
+					<li>
+						<a class="nav" href="admin.html">Formulär Inleverans</a>
+					</li>
+					<li>	
+						<a class="nav" href="forsalj.html">Försäljning</a>
+					</li>	
+				</ul>
+			</nav>
 
 			<div id="mainContainer">
+				<h2>Rapport </h2>
+				<form class="period">
+					<h2>Välj period:</h2>
+					<label to="fromdate">Från datum: </label>
+					<input type="text" name="fromdate" id="fromdate"/>
+					<label to="todate">Till datum: </label>
+					<input type="text" name="todate" id="todate"/>
+					<button type="submit" name="rundate" id="rundate">Kör</button>
+				</form>
 
+				
 
 				<div class="rapport">
 
-					<h2>Rapport </h2>
 
 				</div>
 
 			</div>
 
-</main>
-						
-
-
-
+	</main>
 
 </body>
 

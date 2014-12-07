@@ -1,5 +1,6 @@
 //DOM Ready :)
 $(function() {
+ 
 
   function currentStockOfIsbn(formInfo) {
     $.ajax({
